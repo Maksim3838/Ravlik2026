@@ -89,20 +89,19 @@
 //     })
 
 
-// const tututu = [
-//     { mace: `Kia`, model: `sporteg`, price: 20000 },
-//     { mace: `Lexys`, model: `top`, price: 80000 },
-//     { mace: `Deo`, model: `lanos`, price: 1000 },
-// ];
+const tututu = [
+    { mace: `Kia`, model: `sporteg`, price: 20000 },
+    { mace: `Lexys`, model: `top`, price: 80000 },
+    { mace: `Deo`, model: `lanos`, price: 1000 },
+];
 
 
-// const retCars = (car) => {
-//     const fer = car.map((cars) => {
-//        return cars.mace;
-//     });
-//     return fer;
-//  };
+const retCars = (car) => {
+    const fer = car.map(cars => cars.mace
+    );
+    return fer;
+ };
 
 
 
-// console.log(retCars(tututu));
+console.log(retCars(tututu));
