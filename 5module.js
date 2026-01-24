@@ -97,11 +97,11 @@ const tututu = [
 
 
 const retCars = (car) => {
-    const fer = car.map(cars => cars.mace
+    return car.map(cars => cars
     );
-    return fer;
+    
  };
 
 
 
-console.log(retCars(tututu));
+console.table(retCars(tututu));
