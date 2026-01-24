@@ -96,12 +96,17 @@ const tututu = [
 ];
 
 
-const retCars = (car) => {
-    return car.map(cars => cars
+const retCars = (car,discont) => {
+    return car.map(cars => {
+        return {
+            ...cars,
+            price: cars.price * (1 - discont)
+        }
+    }
     );
     
  };
 
 
 
-console.table(retCars(tututu));
+console.table(retCars(tututu, 0.5));
